@@ -78,7 +78,7 @@ int main()
         else if(choice == 2)
         {
             c: 
-            printf("\nCurrent max value: %d/n", max);
+            printf("\nCurrent max value: %d\n", max);
             printf("Enter a new max value (from 0 to 10): ");
             scanf("%d", & max);
             if(max > 0 && max <= 10)
